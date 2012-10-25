@@ -1,8 +1,26 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 }
-
 body {
-
+	background: black;
+	color: white;
 }
+header, nav, section, article, footer {
+	display: block;
+	margin:20px 20px;
+	padding:20px;
+	border: 1px solid red;
+	-webkit-border-radius:3px;
+}
+nav ul li{
+	display: inline-block;
+}
+
+#big_container {
+	margin: 20px auto;
+	width: 800px;
+	border: 2px solid white;
+	-webkit-border-radius: 5px;
+}
+
