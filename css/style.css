@@ -6,21 +6,47 @@ body {
 	background: black;
 	color: white;
 }
-header, nav, section, article, footer {
+header, nav, section, article, aside, footer {
 	display: block;
-	margin:20px 20px;
-	padding:20px;
+	margin: 20px 20px;
+	padding: 20px;
 	border: 1px solid red;
-	-webkit-border-radius:3px;
+	-webkit-border-radius: 3px;
 }
-nav ul li{
+nav ul li {
 	display: inline-block;
 }
-
+nav ul li a {
+	text-decoration: none;
+	color: #3FA7CB;
+	border: 1px solid #3FA7CB;
+	padding: 10px;
+}
+nav ul span {
+	color: #3FA7CB;
+}
 #big_container {
 	margin: 20px auto;
 	width: 800px;
 	border: 2px solid white;
 	-webkit-border-radius: 5px;
+}
+#main_container{
+	margin:20px auto;
+	padding:10px;
+	border:1px solid #3FA7CB;
+}
+#main_container section{
+	float:left;
+	min-width:400px;
+}
+#main_container aside {
+	float: right;
+	width: 150px;
+	margin: 10px 10px;
+}
+
+footer{
+	clear:both;
 }
 
